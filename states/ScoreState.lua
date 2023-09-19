@@ -10,6 +10,8 @@
 
 ScoreState = Class{__includes = BaseState}
 
+love.graphics.setDefaultFilter("nearest", "nearest")
+
 --[[
 	Store the different medal images in a table, have a string referencing the
 	given medal as to not keep on checking each frame.
